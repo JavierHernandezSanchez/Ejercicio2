@@ -8,6 +8,9 @@ from os import stat
 from stat import filemode
 from datetime import datetime, timezone
 
+#obtener la informacion (permisos, tamaño, fecha de modificación, etc.) 
+#Sobre el archivo más grande de la carpeta opentraveldata
+
 initial_path = "/home/dsc/data/opentraveldata/"
 max_size = 0
 biggest_file = ""
